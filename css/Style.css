@@ -3,12 +3,22 @@ body {
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   margin-top: 50px;
-  background-image: url("/img/Fundo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   max-height: 100vh;
   overflow-y: hidden;
   color: #233e63;
+}
+
+.bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .logopjc {
